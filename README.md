@@ -1,22 +1,25 @@
-#Toggle file's read-only flag in Sublime Text 2
+#Toggle file's read-only attribute in Sublime Text#
 
-Basic plugin for [Sublime Text 2][1] that adds a "Toggle Readonly" command to the
-context menu.
+A plugin for [Sublime Text][1] that allows you to toggle read-only attribute **ON/OFF**. Based on the project from [reflog][4]
 
-##Install
+##Installation##
 
-If your using the [Sublime Package Manger][2] hold down Ctrl+shift+p and type
-`Package Control: Install Package`. Then search for `toggle-readonly` and hit return.
+Open a terminal/command window, navigate to your Sublime Packages folder and run this command: `git clone https://github.com/alefragnani/toggle-readonly`. Or, you can download the package as zip file and extract it into your Sublime packages folder. The Sublime Packages folder can be located using the `Preferences / Browse Packages` menu item.
 
-If your not using the package manager then `cd` into your Sublime packages directory. (On Linux this is ~/Sublime Text 2/Packages) Then run this command `git clone https://github.com/reflog/toggle-readonly`.
+##Usage##
 
-Or you can download the package as zip file [][3] then copy it into your Sublime packages directory.
+To use the plugin, you have two choices:
 
-##Usage
+ * Using `right click` on the Side Bar, the Tab or inside the text
+ * Using `Tools / Command Palette` 
 
-To use the command right click on the file in the side bar or in the buffer area.
+##Compatibility##
 
+The plugin is compatible with Windows, Mac OS X and Linux
 
   [1]: http://www.sublimetext.com/2
-  [2]: http://wbond.net/sublime_packages/package_control
-  [3]: https://github.com/reflog/toggle-readonly/zipball/master
+  [2]: http://wbond.net/sublime\_packages/package\_control
+  [3]: https://github.com/alefragnani/toggle-readonly/
+  [4]: https://github.com/reflog/toggle-readonly
+
+
